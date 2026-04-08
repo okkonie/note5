@@ -3,12 +3,6 @@ function App() {
   return (
     <div className="bg-black flex min-h-dvh justify-center items-center gap-3">
       <div className="bg-white size-8 [corner-shape:squircle] rounded-[50%]"></div>
-      <div className="bg-white size-10 [corner-shape:squircle] rounded-[50%]"></div>
-      <div className="bg-white size-12 [corner-shape:squircle] rounded-[50%]"></div>
-      <div className="bg-white size-14 [corner-shape:squircle] rounded-[50%]"></div>
-      <div className="bg-white size-16 [corner-shape:squircle] rounded-[50%]"></div>
-      <div className="bg-white size-18 [corner-shape:squircle] rounded-[50%]"></div>
-      <div className="bg-white size-20 [corner-shape:squircle] rounded-[50%]"></div>
     </div>
   )
 }

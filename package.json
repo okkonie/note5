@@ -1,0 +1,19 @@
+{
+  "name": "note5",
+  "module": "index.ts",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "dev": "concurrently \"npm run dev --prefix server\" \"npm run dev --prefix client\"",
+    "build": "npm run build --prefix client",
+    "start": "cross-env NODE_ENV=production npm start --prefix server"
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "concurrently": "^10.0.3",
+    "cross-env": "^10.1.0"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  }
+}
